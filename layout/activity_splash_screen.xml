@@ -8,7 +8,7 @@
     android:background="#130160">
 
     <ImageView
-        android:id="@+id/imageView"
+        android:id="@+id/jobspotLogoimageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintBottom_toBottomOf="parent"
