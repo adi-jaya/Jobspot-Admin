@@ -8,7 +8,7 @@
     android:background="#E3E3E3">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/titleTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -38,7 +38,7 @@
         android:translationY="-1.79sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView" />
+        app:layout_constraintTop_toBottomOf="@+id/titleTextView" />
 
     <LinearLayout
         android:id="@+id/linearLayout"
@@ -51,7 +51,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView2">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="top"
             android:text="Email"
@@ -60,16 +60,16 @@
             android:textStyle="bold" />
 
         <EditText
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginTop="10dp"
-            android:elevation="70dp"
+            android:background="@drawable/input_background"
             android:ems="10"
+            android:gravity="center_vertical"
+            android:hint="brandonmari@gmail.com"
             android:inputType="textPersonName"
             android:padding="10dp"
-            android:gravity="center_vertical"
-            android:textSize="12sp"
-            android:hint="brandonmari@gmail.com"/>
+            android:textSize="12sp" />
 
         <TextView
             android:layout_width="match_parent"
@@ -86,13 +86,13 @@
             android:layout_height="50dp"
             android:layout_gravity="center_vertical"
             android:layout_marginTop="10dp"
-            android:elevation="70dp"
+            android:background="@drawable/input_background"
             android:ems="10"
             android:gravity="center_vertical"
             android:hint="***********"
             android:inputType="textPassword"
-            android:textSize="12sp"
-            android:padding="10dp" />
+            android:padding="10dp"
+            android:textSize="12sp" />
 
     </LinearLayout>
 
