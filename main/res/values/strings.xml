@@ -3,4 +3,12 @@
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
+    <string name="nama_perusahaan">Djay Group Inc.</string>
+    <string name="tentang_perusahaan">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet consequuntur corporis fugit modi nisi odio quam sed sunt vitae? Ad commodi consequuntur dolores id nisi ratione sit vero voluptas voluptatum.</string>
+    <string name="industri_perusahaan">It &amp; Telekomunikasi</string>
+    <string name="alamat_perusahaan">Mountain View, California, Amerika Serikat</string>
+    <string name="dokumen">Djay Group Inc. Doc.pdf</string>
+    <string name="nama_pendaftar">Adi Jaya</string>
+    <string name="email_pendaftar">adijaya@gmail.com</string>
+
 </resources>
